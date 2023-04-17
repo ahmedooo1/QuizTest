@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+
+
+}
+#container{
+  width: 70%;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative; 
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+#image img{
+    width: 100%;
+    height: 400px;
+
+}
+h1 {
+  text-align: center;
+  color: #333333;
+
+}
+
+
+#question {
+ 
+  margin: 20px auto;
+ 
+}
+
+#choices {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    padding: 5px;
+    max-width: 70%;
+    cursor: pointer;
+  
+  }
+  .choice{
+    padding: 5px;
+  box-shadow: 0px 3px 5px #17161633;
+  background-color: rgb(228, 228, 227);
+
+  }
+ 
+    
+#choices button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+#choices button:hover {
+  background-color: #f2f2f2;
+}
+
+#next-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+#next-btn:hover {
+  background-color: #3e8e41;
+}
+.choice {
+    margin-bottom: 10px;
+  }
+  
+  .correct {
+    background-color: green;
+    color: #FFF;
+  }
+  
+  .incorrect {
+    background-color: red;
+    color: #FFF;
+
+  }
+
+  @keyframes confetti {
+    0% {
+      transform: translateY(0) rotate(0deg);
+    }
+    100% {
+      transform: translateY(-100vh) rotate(1080deg);
+    }
+  }
+  
+  .celebration {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 30vh;
+    background: linear-gradient(to top, #c6ffd6, #0aa814);
+    overflow: hidden;
+    color: #FFF;
+    font-size: 20px;
+  }
+  
+  .confetti {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #f0f;
+    border-radius: 50%;
+    animation: confetti 4s ease-in-out infinite;
+
+  }
+  
+  .confetti:nth-child(1) {
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation-delay: 0s;
+  }
+  
+  .confetti:nth-child(2) {
+    top: -10px;
+    left: 40%;
+    animation-delay: -0.5s;
+  }
+  
+  .confetti:nth-child(3) {
+    top: -10px;
+    left: 60%;
+    animation-delay: -1s;
+  }
+  
+  .confetti:nth-child(4) {
+    top: -10px;
+    left: 30%;
+    animation-delay: -1.5s;
+  }
+  
+  .confetti:nth-child(5) {
+    top: -10px;
+    left: 70%;
+    animation-delay: -2s;
+  }
+  
