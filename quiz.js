@@ -123,13 +123,15 @@ const quizData = [
 
   // Display the final score and disable the Next button
   function endQuiz() {
-    questionEl.innerHTML = `you can do better !`;
+   
     imageEl.innerHTML = "";
     choicesEl.innerHTML = "";
     nextBtn.style.display='none';
     celebrate();
     if(score > 5){
       questionEl.innerHTML = `CONGRATS !`;
+    }else{
+      questionEl.innerHTML = `you can do better !`;
     }
   }
 
