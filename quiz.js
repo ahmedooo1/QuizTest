@@ -1,4 +1,4 @@
-// Define the quiz questions and answers
+
 const quizData = [  
   {
     image: "https://th.bing.com/th/id/R.7dd46fe88523aa8b11ca28348831833c?rik=dw88SfJStVOT1w&pid=ImgRaw&r=0",
@@ -123,11 +123,14 @@ const quizData = [
 
   // Display the final score and disable the Next button
   function endQuiz() {
-    questionEl.innerHTML = `Wow !`;
+    questionEl.innerHTML = `you can do better !`;
     imageEl.innerHTML = "";
     choicesEl.innerHTML = "";
     nextBtn.style.display='none';
     celebrate();
+    if(score > 5){
+      questionEl.innerHTML = `CONGRATS !`;
+    }
   }
 
   function celebrate() {
