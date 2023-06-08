@@ -1,63 +1,63 @@
 const quizData = [  
   {
-    image: "https://th.bing.com/th/id/R.7dd46fe88523aa8b11ca28348831833c?rik=dw88SfJStVOT1w&pid=ImgRaw&r=0",
-    question: "In which city is the Eiffel Tower located?",
-    choices: ["Marseille", "Lyon", "Paris", "Bordeaux"],
-    answer: "Paris"
+    image: "https://th.bing.com/th/id/R.94fe890b36f74cd5f76f31d928987ead?rik=y4yxRFsri1IXsQ&pid=ImgRaw&r=0",
+    question: "The sun ____ in the east",
+    choices: ["rises", "rised", "rise", "rising"],
+    answer: "rises"
     },
     {
-    image: "https://th.bing.com/th/id/R.9af490070ca77698bf4a623050b78cad?rik=KDW%2bJKSgb4lSKg&pid=ImgRaw&r=0",
-    question: "In which palace is the Hall of Mirrors located?",
-    choices: ["The Louvre", "The Royal Palace", "The Palace of the Popes", "The Palace of Versailles"],
-    answer: "The Palace of Versailles"
+    image: "https://i.pinimg.com/736x/32/97/20/329720c8a65438eb1ebc80fdb64fd8ab--tennis.jpg",
+    question: "She ____ tennis every Sunday.",
+    choices: ["playes", "plays", "playing", "play"],
+    answer: "plays"
     },
     {
-    image: "https://i0.wp.com/snagfilms-a.akamaihd.net/73/6f/225c99c94cc288e917ffb4bf0b76/8220-lec38-1536x865.jpg",
-    question: "Which monument commemorates the victories of Napoleon Bonaparte?",
-    choices: ["The Sacré-Cœur", "Place Vendôme", "The Arc de Triomphe", "The Pyramid of the Louvre"],
-    answer: "The Arc de Triomphe"
+    image: "https://th.bing.com/th/id/OIP.ANSZ6mA8VU8Om8dONPBRXgHaE8?w=244&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7",
+    question: "I like _____ coffee in the morning",
+    choices: ["drinking", "to drink", "would to drink", "drinking"],
+    answer: "to drink"
     },
     {
-    image: "https://static.cnews.fr/sites/default/files/catacombes_0.jpg",
-    question: "What is the name of the underground ossuary that contains the remains of six million people?",
-    choices: ["The Catacombs", "The Metro", "The Sewers", "The Louvre"],
-    answer: "The Catacombs"
+    image: "https://th.bing.com/th/id/R.024faf7e7bae41c306d4fb96ff52d801?rik=c1m4vEFIrftrFw&riu=http%3a%2f%2fcontent.wtsp.com%2fphoto%2f2017%2f05%2f03%2fdogbarking_1493835039380_9365526_ver1.0.jpg&ehk=cGRo2whFUmFp33xO4MTUUEyZaJXcuXcPS9vtsY5oWfI%3d&risl=&pid=ImgRaw&r=0",
+    question: "Dogs ___",
+    choices: ["barks", "barking", "bark", "bark's"],
+    answer: "bark"
     },
     {
-    image: "https://cdn.britannica.com/85/83885-050-9CDCFEA9/Notre-Dame-de-Paris-France.jpg",
-    question: "What is the name of the cathedral located on the Île de la Cité in Paris?",
-    choices: ["Notre-Dame", "Saint-Paul", "Saint-Sulpice", "Sacré-Cœur"],
-    answer: "Notre-Dame"
+    image: "https://cdn.images.dailystar.co.uk/dynamic/1/photos/686000/936x622/34686.jpg",
+    question: "They ___ in London.",
+    choices: ["lives", "will live", "would lives", "live"],
+    answer: "live"
     },
     {
-    image: "https://i.pinimg.com/originals/5c/99/1d/5c991d5fefce332ede3f12f7acee9710.jpg",
-    question: "In which city is the largest royal fortress in France located?",
-    choices: ["Vincennes", "Fontainebleau", "Blois", "Chambord"],
-    answer: "Vincennes"
+    image: "https://media.edutopia.org/styles/responsive_2880px_original/s3/masters/2018-11/iStock-1005285232_master.jpg",
+    question: "He ___ as a teacher",
+    choices: ["workes", "want to works", "works", "working"],
+    answer: "works"
     },
     {
-    image: "https://th.bing.com/th/id/R.3b80835fd54c85499475bad42a617122?rik=U0cImBADtZohYg&pid=ImgRaw&r=0",
-    question: "In which museum is Leonardo da Vinci's Mona Lisa located?",
-    choices: ["The Musée d'Orsay", "The Centre Pompidou", "The Louvre", "The Musée Rodin"],
-    answer: "The Louvre"
+    image: "https://typeset-beta.imgix.net/rehost/2016/9/13/7db36bb8-2ab3-4223-a4e0-422b2a54d762.png?w=1200&h=630&auto=format&q=70&fit=crop&crop=faces",
+    question: "We ___ to the gym three times a week",
+    choices: ["are going", "going", "go", "will go"],
+    answer: "go"
     },
       {
-        image: "https://www.francetvinfo.fr/image/75ncrjyhu-b1b4/578/325/19185807.jpg",
-        question: "In which château is a double-revolution staircase attributed to Leonardo da Vinci located?",
-        choices: ["Chenonceau", "Amboise", "Azay-le-Rideau", "Chambord"],
-        answer: "Chambord"
+        image: "https://th.bing.com/th/id/OIP.ubL3G7vmfLwzLHxni0FgmQHaE8?pid=ImgDet&rs=1",
+        question: "The train ____ at 9:00 AM",
+        choices: ["arrived", "arriving", "arrive", "arrives"],
+        answer: "arrives"
         },
         {
-        image: "https://th.bing.com/th/id/R.a4f485be1e7ae25ff17a0450391abd20?rik=gZWWIBcoHX0m7A&pid=ImgRaw&r=0",
-        question: "In which French region is Mont-Saint-Michel located?",
-        choices: ["Brittany", "Normandy", "Pays de la Loire", "Centre-Val de Loire"],
-        answer: "Normandy"
+        image: "https://i.ytimg.com/vi/vhk6qihcFhU/maxresdefault.jpg",
+        question: "My sister ____ Spanish fluently",
+        choices: ["speaks", "speaking", "have to speaks", "will speaks"],
+        answer: "speaks"
         },
         {
-        image: "https://i0.wp.com/www.playingtheworld.com/wp-content/uploads/2020/07/%C2%A9playingtheworld-chateau-loire-chenonceau-voyage-5.jpg?w=2160&ssl=1",
-        question: "In which château of the Loire Valley is a gallery built over the Cher river located?",
-        choices: ["Azay-le-Rideau", "Chenonceau", "Amboise", "Blois"],
-        answer: "Chenonceau"
+        image: "https://lh6.googleusercontent.com/proxy/OOHzUwljxZp2EOkdja3s-Yn2Gouai-g-V1JZXHNnwCNg-971HKB7I0DkhjeryUEdAYw73M8LBmX_x_9KMk-NcQE4RQ=s0-d",
+        question: "The Earth ____ around the sun",
+        choices: ["revolve", "revolvies", "revolves", "revolvesing"],
+        answer: "revolves"
         }
   ];
   
